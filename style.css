@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #11A8AB;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+button{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: 2px solid transparent;
+    background-color: #1F253D;
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+    font-size: 1.6rem;
+}
+
+button:active{
+    border: 2px solid white;
+    background-color: #E64C65;
+}
+#zerar:hover{
+    background-color: white;
+    color: #1F253D;
+}
+section{
+    background-color: #394264;
+    box-shadow: 0px 0px 5px black;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section > p{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+strong{
+    color: #11A8AB;
+    font-size: 3rem;
+}
+.fa-solid{
+    font-size: 1.5rem;
+}
+
+@media (min-width:769px){
+    button{
+        width: 20%;
+    }
+    button:hover{
+        transition: .3s;
+        background-color: #E64C65;
+        cursor: pointer;
+    }
+    section{
+        width: 40%;
+        margin: 5rem auto;
+    }
+}
